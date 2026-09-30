@@ -1,10 +1,18 @@
-# sistemas_operacionais
-sistemas_operacionais
+# sistemas\_operacionais
+
+sistemas\_operacionais
 
 Para compilar:
 
-gcc arquivo.c -o nome_arquivo_executavel
+gcc arquivo.c -o nome\_arquivo\_executavel
 
 Para ver as syscalls:
 
-strace nome_arquivo_executavel
+strace nome\_arquivo\_executavel
+
+
+
+para ver o cabeçalho
+
+readelf -h ./a.out
+
